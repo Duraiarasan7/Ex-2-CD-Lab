@@ -1,6 +1,6 @@
 # Ex-2-GENERATION OF LEXICAL TOKENS LEX FLEX TOOL
 # REG NO : 212224230071
-# DATE : 03/02/2026
+# DATE : 12/02/2026
 # AIM
 ## To write a lex program to implement lexical analyzer to recognize a few patterns.
 # ALGORITHM
@@ -34,7 +34,7 @@
 7.	Compile that file with C compiler and verify the output.
 
 # INPUT
-
+```
 %{
  int COMMENT=0;
 %}
@@ -77,8 +77,16 @@ yylex(); printf("\n\n"); return 0;
 {
 return 0;
 }
+```
+
 
 # OUTPUT
+
+
+<img width="1536" height="1024" alt="ChatGPT Image Feb 10, 2026, 01_13_28 PM" src="https://github.com/user-attachments/assets/d35d55ff-2a3e-4ea1-9d73-9724375e289f" />
+
+
+
 
 # RESULT
 ## The lexical analyzer is implemented using lex and the output is verified.
